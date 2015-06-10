@@ -31,5 +31,5 @@ Boilerplate for c++ project written in C++ in Visual Studio 2013 with gtest and 
     - основной проект соберётся в static library NewProject.lib
     - проект для теситрования соберётся в консольное приложение NewProjectTest.exe и начнёт выполняться. Из коробки там есть несколько тестов gTest и gMock, которые тестируют некий простейший код, из NewProject.lib
 * Оба проекта собираются в x64 с Runtime Multithreaded Dll (или соответственно Debug Dll)
-* Сборка результатов обоих проектов производится в $SolutionDir/$Platform/Drbug(Release)
-    - Промежуточные файлы сборки попадают в temp/$SolutionDir/$Platform/Drbug(Release)
+* Сборка результатов обоих проектов производится в $SolutionDir/$Platform/Debug(Release)
+    - Промежуточные файлы сборки попадают в temp/$SolutionDir/$Platform/Debug(Release)
