@@ -6,7 +6,7 @@
 #include <iostream>
 
 
-int _tmain(int argc, _TCHAR* argv[])
+int _tmain(int argc, char* argv[])
 {
 	std::cout << "Hello, CppBoilerplateVS2013GtestGmockDoxygen!\n";
 	std::cout << "Press enter to exit.";
