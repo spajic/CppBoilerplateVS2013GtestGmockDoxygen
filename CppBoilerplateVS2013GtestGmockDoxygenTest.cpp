@@ -8,21 +8,12 @@
 #include "gtest/gtest.h"
 #include "gmock/gmock.h"
 
-TEST(FirstTest, Pass) {
-	EXPECT_EQ(1, 1);
-}
+#include "CppBoilerplateVS2013GtestGmockDoxygen\CppBoilerplateVS2013GtestGmockDoxygen.h"
 
-class Turtle {
-public:
-	virtual ~Turtle() {}
-	virtual void PenUp() = 0;
-	virtual void PenDown() = 0;
-	virtual void Forward(int distance) = 0;
-	virtual void Turn(int degrees) = 0;
-	virtual void GoTo(int x, int y) = 0;
-	virtual int GetX() const = 0;
-	virtual	int GetY() const = 0;
-};
+TEST(FirstTest, Pass) {
+	Trivial t;
+	EXPECT_EQ(1, t.ReturnOne());
+}
 
 class MockTurtle : public Turtle {
 public:

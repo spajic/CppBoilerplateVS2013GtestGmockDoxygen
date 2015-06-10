@@ -3,3 +3,8 @@
 
 #include "stdafx.h"
 
+#include "CppBoilerplateVS2013GtestGmockDoxygen.h"
+
+int Trivial::ReturnOne() {
+	return 1;
+}
