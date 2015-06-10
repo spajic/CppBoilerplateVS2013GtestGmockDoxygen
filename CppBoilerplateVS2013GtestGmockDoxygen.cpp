@@ -8,7 +8,7 @@
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	std::cout << "Hello, boilerplate!\n";
+	std::cout << "Hello, CppBoilerplateVS2013GtestGmockDoxygen!\n";
 	std::cout << "Press enter to exit.";
 	std::cin.get();
 	return 0;
