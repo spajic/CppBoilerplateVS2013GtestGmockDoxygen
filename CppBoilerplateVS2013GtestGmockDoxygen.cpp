@@ -36,9 +36,10 @@ public:
 };
 
 TEST(PainterTest, CanDrawSomething) {
-	MockTurtle Turtle;
+	MockTurtle Turtle;	
 	EXPECT_CALL(Turtle, PenDown())
 		.Times(::testing::AtLeast(1));
+	Turtle.PenDown();
 }
 
 int runAllTests(int argc, char* argv[]) {
