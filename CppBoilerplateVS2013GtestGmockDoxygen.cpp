@@ -8,8 +8,8 @@
 #include "gtest/gtest.h"
 #include "gmock/gmock.h"
 
-TEST(FirstTest, Fail) {
-	EXPECT_EQ(1, 2);
+TEST(FirstTest, Pass) {
+	EXPECT_EQ(1, 1);
 }
 
 class Turtle {
