@@ -1,5 +1,5 @@
 // stdafx.cpp : source file that includes just the standard includes
-// CppBoilerplateVS2013GtestGmockDoxygen.pch will be the pre-compiled header
+// CppBoilerplateVS2013GtestGmockDoxygenTest.pch will be the pre-compiled header
 // stdafx.obj will contain the pre-compiled type information
 
 #include "stdafx.h"

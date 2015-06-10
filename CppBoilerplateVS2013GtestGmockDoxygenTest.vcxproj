@@ -22,6 +22,7 @@
     <ProjectGuid>{AFB1D978-2497-433E-8B8C-FB8544D2581B}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>CppBoilerplateVS2013GtestGmockDoxygen</RootNamespace>
+    <ProjectName>CppBoilerplateVS2013GtestGmockDoxygenTest</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -148,7 +149,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CppBoilerplateVS2013GtestGmockDoxygen.cpp" />
+    <ClCompile Include="CppBoilerplateVS2013GtestGmockDoxygenTest.cpp" />
     <ClCompile Include="stdafx.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
